@@ -2,10 +2,9 @@
 
 ## Continuous Integration Tests
 
-| Platform        | Status                                                                                                                                              |
-| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Linux and macOS | [![Travis](https://img.shields.io/travis/com/ocefpaf/regrid_xesmf_grib/master.svg?label=Linux/macOS)](https://travis-ci.com/ocefpaf/regrid_xesmf_grib)                         |
-| Windows         | [![AppVeyor](https://img.shields.io/appveyor/ci/ocefpaf/regrid-xesmf-grib/master.svg?label=Windows)](https://ci.appveyor.com/project/ocefpaf/regrid-xesmf-grib/branch/master) |
+| Platform        | Status                                                                                                                                                 |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Linux and macOS | [![Travis](https://img.shields.io/travis/com/ocefpaf/regrid_xesmf_grib/master.svg?label=Linux/macOS)](https://travis-ci.com/ocefpaf/regrid_xesmf_grib) |
 
 ## Binder
 
