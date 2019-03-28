@@ -1,0 +1,11 @@
+name: REGRID
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - iris
+  - ocefpaf::iris-grib
+  - python-eccodes
+  - xarray
+  - xesmf
