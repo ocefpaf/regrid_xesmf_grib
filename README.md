@@ -1,5 +1,20 @@
 # Regrid with xESMF and save grib with iris
 
+This notebook loads netCDF data from an OPeNDAP endopoint with `xarray`,
+re-grids it with `xESMF`,
+and saves a `grib` file
+
+You can run it on binder or create a local environment with `conda`:
+
+```
+conda env create --file environment.yml
+```
+
+Note that,
+b/c this environment uses a user modified package [available in a third party channel](https://anaconda.org/ocefpaf/iris-grib),
+one cannot use the `strict` channel option in the `.condarc` otherwise the environment will be unsolvable.
+
+
 ## Continuous Integration Tests
 
 | Platform  | Status                                                                                                                                                 |
