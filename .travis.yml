@@ -27,7 +27,6 @@ before_install:
     conda install pycryptosat
     conda config --set sat_solver pycryptosat
     conda config --set safety_checks disabled
-    conda config --set channel_priority strict
 
 install:
   # Create the test env.
